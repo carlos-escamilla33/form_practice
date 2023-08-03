@@ -1,0 +1,11 @@
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#image-container {
+    background-image: url("./media/computer.avif");
+    height: 400px;
+    width: 100%;
+}
