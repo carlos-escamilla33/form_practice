@@ -12,6 +12,8 @@ body {
     resize: both;
 }
 #right-container {
+    display: flex;
+    flex-direction: column;
     background-color: #DDDDDD;
     height: 100vh;
     width: 100%;
