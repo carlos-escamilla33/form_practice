@@ -9,6 +9,8 @@ body {
 
 #left-container {
     background-image: url("./media/computer.avif");
+    background-size: cover;
+    background-position: center;
     height: 100vh;
     width: 70%;
 }
@@ -21,20 +23,26 @@ body {
     width: 100%;
 }
 
-
-
 h2, h3, button, p, input {
     margin-left: 40px;
 }
 
-.info-container {
-    
+.info-container > h2{
+    font-size: 30px;
+}
+
+.info-container > h3{
+    font-size: 22px;
 }
 
 input {
     width: 200px;
     height: 20px;
     border-radius: 4px;
+    padding:10px;
+    border:0;
+    box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
+    text-size: 20px;
 }
 
 div.form-container {
@@ -45,10 +53,12 @@ div.form-container {
 .input-container {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-around;
     background-color: white;
     height: 250px;
     margin-bottom: 20px;
+    box-shadow:0 0 15px 4px rgba(0,0,0,0.08);
+    padding: 20px;
 }
 
 .first-row, .second-row, .third-row {
