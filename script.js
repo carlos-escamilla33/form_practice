@@ -16,7 +16,6 @@ const checkPassMatch = (pass1, pass2) => {
 
 form.addEventListener("submit", () => {
     event.preventDefault();
-    console.log("form submitted");
 
     let enteredPass = document.querySelector(".pass1");
     let confirmedPass = document.querySelector(".pass2");
