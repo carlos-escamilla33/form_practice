@@ -59,7 +59,8 @@ input {
     text-size: 20px;
 }
 
-div.form-container {
+
+#form-container {
     align-self: center;
     width: 100%;
 }
@@ -102,4 +103,12 @@ button:focus {
 
 a {
     text-decoration: none;
+}
+
+.error {
+    border: solid red;
+}
+
+.success {
+    border: solid green;
 }
